@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحمد فوزي، مصمم جرافيك متخصص في تصميم الشعارات والمخطوطات والهويات البصرية.">
+  <title>Ahmed Fawzy | Graphic Designer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #101010;
+      color: #f5f2ec;
+      font-family: Arial, sans-serif;
+      line-height: 1.8;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1080px, 90%); margin: auto; }
+    header {
+      padding: 24px 0;
+      border-bottom: 1px solid #303030;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 21px; font-weight: bold; }
+    nav a { color: #ccc; margin-left: 16px; }
+    .hero { padding: 100px 0 85px; }
+    .tag { color: #d9b879; letter-spacing: 2px; }
+    h1 { font-size: clamp(38px, 7vw, 72px); line-height: 1.2; margin: 18px 0; }
+    h2 { font-size: 32px; }
+    p { color: #c3c3c3; }
+    .hero p { max-width: 650px; font-size: 18px; }
+    .btn {
+      display: inline-block;
+      background: #d9b879;
+      color: #151515;
+      padding: 12px 24px;
+      border-radius: 5px;
+      margin-top: 18px;
+      font-weight: bold;
+    }
+    section { padding: 55px 0; border-top: 1px solid #303030; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      padding: 24px;
+      background: #1b1b1b;
+      border: 1px solid #303030;
+      border-radius: 10px;
+    }
+    .card h3 { color: #d9b879; }
+    .work {
+      min-height: 150px;
+      display: grid;
+      place-items: center;
+      background: #242424;
+      border-radius: 8px;
+      color: #d9b879;
+      text-align: center;
+      padding: 20px;
+    }
+    footer { padding: 30px 0; color: #aaa; text-align: center; }
+    @media (max-width: 600px) {
+      .hero { padding: 65px 0; }
+      nav { align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a class="logo" href="#">Ahmed Fawzy.</a>
+      <div>
+        <a href="#about">عني</a>
+        <a href="#services">خدماتي</a>
+        <a href="#work">أعمالي</a>
+        <a href="#contact">تواصل</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="tag">GRAPHIC DESIGNER & VISUAL ARTIST</div>
+      <h1>أصمم أفكارًا<br>تترك أثرًا.</h1>
+      <p>
+        أنا أحمد فوزي، مصمم جرافيك وفنان من غزة،
+        متخصص في تصميم الشعارات والمخطوطات العربية
+        والهويات البصرية التي تمنح العلامات التجارية شخصية مميزة.
+      </p>
+      <a class="btn" href="#work">اكتشف أعمالي ←</a>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2>من أنا؟</h2>
+        <p>
+          أؤمن بأن التصميم ليس مجرد شكل جميل، بل لغة بصرية
+          تحكي قصة وتوصل رسالة. أعمل على تحويل الأفكار إلى
+          تصاميم تجمع بين البساطة والإبداع والهوية.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>خدماتي</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>تصميم الشعارات</h3>
+            <p>شعارات احترافية تعكس شخصية مشروعك، مع اهتمام خاص بالخطوط العربية.</p>
+          </article>
+          <article class="card">
+            <h3>المخطوطات العربية</h3>
+            <p>تصميم مخطوطات تايبوجرافي وكاليوجرافي تجمع بين جمال الحرف ووضوح المعنى.</p>
+          </article>
+          <article class="card">
+            <h3>الهوية البصرية</h3>
+            <p>بناء هوية متكاملة تشمل الألوان والخطوط والتطبيقات البصرية.</p>
+          </article>
+          <article class="card">
+            <h3>تصاميم السوشيال ميديا</h3>
+            <p>تصاميم إبداعية تساعد علامتك التجارية على التواصل مع جمهورها.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="wrap">
+        <h2>نماذج من أعمالي</h2>
+        <p>استبدل هذه المساحات بصور مشاريعك الحقيقية.</p>
+        <div class="grid">
+          <div class="work">مشروع 01<br>تصميم شعار</div>
+          <div class="work">مشروع 02<br>مخطوطة عربية</div>
+          <div class="work">مشروع 03<br>هوية بصرية</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <h2>لنعمل معًا</h2>
+        <p>هل لديك فكرة أو مشروع؟ يسعدني التواصل معك ومناقشة التفاصيل.</p>
+        <!-- استبدل الرابط ببريدك الإلكتروني -->
+        <a class="btn" href="mailto:YOUR_EMAIL@example.com">تواصل معي</a>
+        <p>
+          <a href="https://www.behance.net/" target="_blank" rel="noopener">Behance</a>
+          &nbsp; | &nbsp;
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Ahmed Fawzy · جميع الحقوق محفوظة</div>
+  </footer>
+</body>
+</html>
